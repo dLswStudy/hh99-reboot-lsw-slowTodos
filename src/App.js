@@ -27,6 +27,7 @@ function App() {
     dispatch(__addToDo({
       title, body, id
     }))
+    resetInputs()
   };
 
   const onDeleteTodo = (id) => {
